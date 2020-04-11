@@ -49,6 +49,10 @@ a {
     color: white;
 }
 
+#hidden-link {
+    color: #777777;
+}
+
 
 .main-content {
     background-color: #ffffff;
@@ -119,6 +123,17 @@ input[type=email] {
 
 #message-text {
     padding: 100px;
+}
+
+.rotateimg90 {
+    -webkit-transform:rotate(090deg);
+  -moz-transform: rotate(090deg);
+  -ms-transform: rotate(090deg);
+  -o-transform: rotate(090deg);
+  transform: rotate(090deg);
+  width: 500px;
+  margin: auto;
+  padding: 50px;
 }
 
 footer {
